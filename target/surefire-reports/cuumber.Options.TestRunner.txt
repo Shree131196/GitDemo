@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Test set: cuumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.168 s <<< FAILURE! -- in cuumber.Options.TestRunner
+Validating Phone API.Verifying if phone model is successfully extracted using GetObjectAPI -- Time elapsed: 0.095 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I have a REST API end point for getting list of phone models' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("I have a REST API end point for getting list of phone models")
+public void i_have_a_rest_api_end_point_for_getting_list_of_phone_models() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Validating Phone API.Verifying if phone model with id is successfully extracted using GetObjectAPI -- Time elapsed: 0.009 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I have a REST API end point for getting list of phone models' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I have a REST API end point for getting list of phone models")
+public void i_have_a_rest_api_end_point_for_getting_list_of_phone_models() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User calls {string} with {string}  http request to the end point with IDs: {string}, {string}, {string}")
+public void user_calls_with_http_request_to_the_end_point_with_i_ds(String string, String string2, String string3, String string4, String string5) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Validating Phone API.Verifying if phone details are successfully extracted for a single ID using GetObjectAPI -- Time elapsed: 0.009 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I have a REST API end point for getting list of phone models' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I have a REST API end point for getting list of phone models")
+public void i_have_a_rest_api_end_point_for_getting_list_of_phone_models() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user calls {string} with {string} http request to the end point with the ID as {string}")
+public void user_calls_with_http_request_to_the_end_point_with_the_id_as(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("ID present in response should match the {string} given by user")
+public void id_present_in_response_should_match_the_given_by_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
